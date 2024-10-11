@@ -37,7 +37,7 @@ const formatGroupLabel = (data: GroupedOption) => (
   </div>
 );
 
-const CustomSelect = () => {
+const GroupSelect = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(true);
 
   return (
@@ -58,4 +58,4 @@ const CustomSelect = () => {
   );
 };
 
-export default CustomSelect;
+export default GroupSelect;

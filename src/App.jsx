@@ -1,9 +1,9 @@
-import CustomSelect from "./components/CustomSelect";
+import GroupSelect from "./components/GroupSelect";
 
 export default function App() {
   return (
     <div id="App">
-      <CustomSelect />
+      <GroupSelect />
     </div>
   );
 }
